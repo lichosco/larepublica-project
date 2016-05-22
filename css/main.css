@@ -149,18 +149,100 @@
   width: 100%;
   background-color: #f4f5f7;
   border-top: 4px solid #ba1414;
-  height: 200px;
+  height: 350px;
   margin-top: -180px; }
   .columns .tittle {
     background-color: #ba1414;
     color: white;
     width: 140px;
     height: 40px;
-    margin-top: -30px;
+    margin-top: -25px;
     margin-left: 400px; }
-  .columns h5 {
+    .columns .tittle h5 {
+      font-size: 18px;
+      padding: 10px 5px;
+      font-family: Helvetica, Arial, Sans-serif, Open sasn; }
+  .columns h6 {
+    font-size: 11px;
+    margin-top: 18px;
+    text-align: center; }
+  .columns .column-box {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: #fff;
+    height: 100px;
+    padding: 10px 10px; }
+    .columns .column-box h5 {
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center; }
+  .columns .progress-circle {
+    margin-top: 170px;
+    margin-left: 450px; }
+    .columns .progress-circle .circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #ba1414;
+      display: inline-block; }
+    .columns .progress-circle .circle:last-child {
+      background-color: #817E7E; }
+
+.bloque {
+  box-sizing: border-box;
+  margin-right: 30px;
+  width: 31%;
+  height: 280px;
+  border: 1px solid #828282;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .bloque p {
+    color: white;
     font-size: 18px;
-    padding: 10px 5px;
-    font-family: Helvetica, Arial, Sans-serif, Open sasn; }
+    margin-top: -70px; }
+  .bloque h5 {
+    font-size: 18px;
+    text-align: center;
+    color: #ba1414;
+    font-weight: bold; }
+  .bloque .bloq {
+    box-sizing: border-box;
+    width: 108%;
+    margin-left: -4%; }
+
+.banner-hair {
+  margin-top: -300px; }
+
+.bloquenews {
+  margin-top: 40px;
+  width: 103%;
+  height: 230px;
+  border-bottom: 1px solid black; }
+  .bloquenews p {
+    font-size: 13px; }
+  .bloquenews h5 {
+    font-size: 20px; }
+  .bloquenews .text {
+    width: 65%;
+    margin-left: 220px;
+    margin-top: -23%; }
+    .bloquenews .text .link {
+      margin-top: 40px; }
+      .bloquenews .text .link .fa-youtube-play {
+        color: #ba1414; }
+    .bloquenews .text p {
+      font-size: 13px; }
+  .bloquenews .dott {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .bloquenews h6 {
+    display: inline;
+    font-size: 10px;
+    color: #7B7979;
+    margin-left: 5px; }
+  .bloquenews a {
+    font-size: 10px;
+    color: #7B7979; }
 
 /*# sourceMappingURL=main.css.map */

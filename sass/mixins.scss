@@ -1,0 +1,23 @@
+@mixin columns ($ancho, $bg, $alto, $pad)
+{
+	width:$ancho;
+	background-color:$bg;
+	height:$alto;
+	padding:$pad;
+}
+
+@mixin block ($ancho, $alto, $borde,$mt,$mb)
+{
+	width:$ancho;
+	height:$alto;
+	border:$borde;
+	margin-top:$mt;
+	margin-bottom:$mb;
+}
+
+@mixin bloqnews ($ancho, $alto, $bordeb)
+{
+	width:$ancho;
+	height:$alto;
+	border-bottom:$bordeb;
+}

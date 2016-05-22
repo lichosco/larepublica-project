@@ -216,7 +216,7 @@
 		width:100%;
 		background-color:$dark-gray;
 		border-top:4px solid $red;
-		height:200px;
+		height:350px;
 		margin-top:-180px;
 		.tittle
 		{
@@ -224,13 +224,150 @@
 			color:white;
 			width:140px;
 			height:40px;
-			margin-top:-30px;
+			margin-top:-25px;;
 			margin-left:400px;
-		}
-		h5
+			h5
 		{
 			font-size:18px;
 			padding:10px 5px;
 			font-family:$font;
+		} 
+		}
+		
+		h6 
+		{
+			font-size:11px;
+			margin-top:18px;
+			text-align:center;
+		}
+
+		.column-box
+		{
+
+
+		margin-left:50px;
+		margin-top:20px;
+		@include columns (100px, #fff, 100px, 10px 10px);
+		h5
+		{
+			font-size:16px;
+			font-weight:bold;
+			text-align:center;
+		}
+		}
+		.progress-circle
+		{
+			margin-top:170px;
+			margin-left:450px;
+			.circle
+			{
+			width:10px;
+			height:10px;
+			border-radius:100%;
+			background-color:$red;
+			display:inline-block;
+			
+			}
+			.circle:last-child
+			{
+				background-color:#817E7E;
+			}
+			
+		}
+		
+		
+	}
+
+	.bloque
+	{
+		box-sizing:border-box;
+		margin-right:30px;
+		@include block (31%, 280px, 1px solid #828282, 20px, 20px);
+		p 
+		{
+			color:white;
+			font-size:18px;
+			margin-top:-70px;
+
+
+		}
+		h5
+		{
+			font-size:18px;
+			text-align:center;
+			color:$red;
+			font-weight:bold;
+		}
+		.bloq
+		{
+			box-sizing:border-box;
+			width:108%;
+			margin-left:-4%;
+
 		}
 	}
+	.banner-hair
+	{
+		margin-top:-300px;
+	}
+
+.bloquenews
+{
+	margin-top:40px;
+	p 
+	{
+		font-size:13px;
+
+	}
+	h5 
+	{
+		font-size:20px;
+	}
+	@include bloqnews (103%, 230px, 1px solid black);
+	.newspic
+	{
+
+	}
+	.text
+	{
+		.link
+		{
+			margin-top:40px;
+			.fa-youtube-play
+			{
+				color:$red;
+			}
+
+		}
+
+
+		p 
+		{
+			font-size:13px;
+		}
+		width:65%;
+		margin-left:220px;
+		margin-top:-23%;
+
+	}
+	.dott
+	{
+		margin-left:15px;
+		margin-right:15px;
+	}
+	h6 
+	{
+		display:inline;
+		font-size:10px;
+		color:#7B7979;
+		margin-left:5px;
+	}
+	a 
+	{
+		font-size:10px;
+		color:#7B7979;
+	}
+}
+
+
+
