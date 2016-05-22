@@ -1,0 +1,53 @@
+/*COLOURS*/
+/*FONTS*/
+.square {
+  border: 1px solid #CECBCB; }
+  .square .opinion-square {
+    border: 1px solid #CECBCB;
+    background-color: #F4E8E8; }
+  .square .img-square {
+    margin-left: 5px;
+    border: 1px solid #CECBCB; }
+
+.square {
+  border: 1px solid #CECBCB; }
+  .square .opinion-square {
+    border: 1px solid #CECBCB;
+    background-color: #CACACA; }
+    .square .opinion-square .h4 {
+      font-size: 10px; }
+
+/*FOOTER*/
+.back-color-gray {
+  background-color: #CACACA; }
+
+.img-text-republica {
+  padding-top: 100px; }
+
+.links-list li {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  text-align: left; }
+  .links-list li a {
+    text-decoration: none;
+    color: black; }
+
+.newspaper-list li {
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  border-right: 1px solid black;
+  margin-left: 6px;
+  padding-right: 6px; }
+  .newspaper-list li p {
+    font-size: 15px;
+    display: inline; }
+  .newspaper-list li a {
+    color: black;
+    text-decoration: none; }
+
+/*FIN FOOTER*/
+
+/*# sourceMappingURL=main.css.map */
