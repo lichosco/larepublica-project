@@ -245,4 +245,174 @@
     font-size: 10px;
     color: #7B7979; }
 
+.suscribe {
+  background-color: #e4e7ea;
+  height: 220px;
+  padding-top: 10px;
+  width: 300px;
+  margin-bottom: 30px; }
+  .suscribe .iconm {
+    width: 50px;
+    height: 50px;
+    margin-left: 95px; }
+  .suscribe .white-bg {
+    background-color: white;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: -15px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+    .suscribe .white-bg h5 {
+      font-size: 18px;
+      text-align: center; }
+    .suscribe .white-bg .form-control {
+      width: 100%;
+      border: 1px solid #DBDBDB;
+      height: 20px;
+      margin-left: 10px;
+      background-color: #B8B8B8; }
+    .suscribe .white-bg button {
+      background-color: #ba1414;
+      color: white;
+      padding: 0px 30px;
+      margin-top: 10px;
+      margin-left: 23px;
+      border-style: none;
+      border-radius: 4px; }
+
+.aweita {
+  border: 1px solid #e4e7ea;
+  width: 300px;
+  padding: 5px 10px; }
+  .aweita .box {
+    margin-top: 10px;
+    margin-bottom: 25px; }
+    .aweita .box p {
+      font-size: 12px;
+      margin-left: 115px;
+      margin-top: -60px; }
+  .aweita .awe-box {
+    margin-left: -10px;
+    margin-top: 10px; }
+    .aweita .awe-box p {
+      margin-left: 100px;
+      font-size: 11px; }
+    .aweita .awe-box h6 {
+      color: #870570;
+      font-size: 12px;
+      margin-left: 144px;
+      margin-top: -24px; }
+  .aweita .bottom-deco {
+    width: 100px;
+    background-color: #870570;
+    height: 10px;
+    margin-left: 90px; }
+
+.descatacados {
+  border-top: 8px solid #819AB0;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .descatacados hr {
+    margin-top: 60px;
+    border: 1px solid #e4e7ea; }
+  .descatacados .titl {
+    background-color: #819AB0;
+    color: white;
+    width: 150px;
+    padding: 3px 5px;
+    margin-top: -15px;
+    margin-left: 80px; }
+    .descatacados .titl h6 {
+      font-size: 12px;
+      font-weight: bold; }
+  .descatacados .box-ppal {
+    margin-top: 20px;
+    padding-bottom: 10px; }
+    .descatacados .box-ppal img {
+      border: 1px solid black; }
+    .descatacados .box-ppal h6 {
+      font-weight: bold; }
+  .descatacados .secun {
+    margin-top: 30px; }
+    .descatacados .secun h6 {
+      font-size: 13px;
+      font-weight: bold;
+      margin-left: 125px;
+      margin-top: -60px; }
+
+.especials {
+  border-top: 8px solid #819AB0;
+  width: 300px; }
+  .especials .titl {
+    background-color: #819AB0;
+    color: white;
+    width: 150px;
+    padding: 3px 5px;
+    margin-top: -15px;
+    margin-left: 80px; }
+    .especials .titl h6 {
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center; }
+  .especials .box-min {
+    margin-top: 20px;
+    margin-bottom: 30px; }
+    .especials .box-min .cont {
+      background-color: white; }
+      .especials .box-min .cont h6 {
+        margin-top: -35px;
+        margin-left: 100px;
+        color: white;
+        font-weight: bold; }
+  .especials hr {
+    margin-top: 60px;
+    border: 1px solid #e4e7ea; }
+
+/*CONTACTO*/
+.contact h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center; }
+.contact p {
+  font-size: 15px;
+  font-weight: bold; }
+.contact .form {
+  background-color: white-smoke; }
+  .contact .form .form-control {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ba1414;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: #ba1414; }
+  .contact .form p {
+    font-size: 12px; }
+.contact .btns-option p {
+  font-size: 10px;
+  color: black; }
+.contact .btns-option label {
+  margin-bottom: 20px;
+  display: block; }
+.contact .btns-option h6 {
+  color: #ba1414;
+  font-weight: bold; }
+.contact textarea {
+  border: 2px solid #ba1414;
+  height: 200px; }
+.contact button {
+  background-color: #ba1414;
+  font: 14px;
+  color: white;
+  padding: 10px 50px;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 300px; }
+.contact button:hover {
+  background-color: white;
+  color: #ba1414;
+  border: 2px solid #ba1414;
+  font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */
