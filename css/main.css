@@ -2,13 +2,9 @@
 /*FONTS*/
 /*SECCION BLOG*/
 .square {
-  margin-left: 3px;
-  margin-top: 5px;
   border: 2px solid #CECBCB;
-  padding: 8px;
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 235px; }
+  padding: 6px;
+  margin: 4px; }
   .square p {
     font-size: 13px;
     padding: 12px; }
@@ -21,26 +17,41 @@
     background-color: #CACACA;
     padding: 10px;
     text-align: left; }
-    .square .opinion-square h4 {
-      font-size: 18px;
+  .square .img-sqr {
+    display: inline-table;
+    margin-top: -5px; }
+  .square .text-sqr {
+    display: inline-table;
+    margin-left: 2px;
+    margin-top: 10px; }
+    .square .text-sqr h4 {
+      font-size: 16px;
       font-weight: bold; }
-    .square .opinion-square h3 {
-      font-size: 18px; }
-    .square .opinion-square .im {
-      border: 2px solid white;
-      width: 60px;
-      height: 60px;
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      text-aling: left; }
-    .square .opinion-square .tx h4 {
-      font-size: 15px;
-      display: inline;
-      margin-left: 20px;
-      margin-top: -5px; }
 
 /*FIN SECCION BLOG*/
-/*FOOTER*/
+/*SECCION COLUMNISTAS*/
+.btn-columnas {
+  background-color: #DD3434;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 16px;
+  text-align: center; }
+
+.abc-list li {
+  background-color: #DD3434;
+  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  padding-right: 10px; }
+  .abc-list li a {
+    color: white;
+    text-decoration: none; }
+  .abc-list li .abc-list ul {
+    background-color: #DD3434; }
+
+/* FIN SECCION COLUMNISTAS*/
+/*FOOTER DE TODAS LAS PAGINAS*/
 .back-color-gray {
   background-color: #CACACA; }
 

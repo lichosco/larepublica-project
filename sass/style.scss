@@ -1,12 +1,8 @@
 /*SECCION BLOG*/
 .square {
-	margin-left: 3px;
-	margin-top: 5px;
 	border: 2px solid #CECBCB;
-	padding: 8px;
-	margin-top: 10px;
-	margin-left: 10px;
-	width: 235px;
+	padding: 6px;
+	margin: 4px;
 	p {
 		font-size: 13px;
 		padding: 12px;
@@ -21,36 +17,50 @@
 		background-color: #CACACA;
 		padding: 10px;
 		text-align: left;
-			h4 {
-				font-size: 18px;
-				font-weight: bold;
-			}
-			h3 {
-				font-size: 18px;
-
-			}
-		.im {
-			border: 2px solid white;
-			width: 60px;
-			height: 60px;
-			background-size: 100% 100%;
-			background-repeat:no-repeat;
-			text-aling: left;
 		}
-		.tx h4 {
-			font-size: 15px;
-			display: inline;
-			margin-left: 20px;
-			margin-top: -5px;
-			
-		}
-
-		}
+			.img-sqr {
+				display: inline-table;
+				margin-top: -5px;
+				}
+			.text-sqr {
+					display: inline-table;
+					margin-left: 2px;
+					margin-top: 10px;
+					h4 {
+					font-size: 16px;
+					font-weight: bold;
+					}
+				}
 }
 /*FIN SECCION BLOG*/
 
 
 
+/*SECCION COLUMNISTAS*/
+.btn-columnas {
+	background-color: #DD3434;
+	border-radius: 5px;
+	color: white;
+	padding: 5px 16px;
+	text-align: center;
+
+}
+
+.abc-list li {
+	background-color: #DD3434;
+	font-size: 15px;
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	padding-right: 10px;
+		a {
+			color: white;
+			text-decoration: none;
+		}
+	.abc-list ul {
+		background-color: #DD3434;
+	}
+}
 
 
 
@@ -60,23 +70,14 @@
 
 
 
+/* FIN SECCION COLUMNISTAS*/
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-/*FOOTER*/
+/*FOOTER DE TODAS LAS PAGINAS*/
 .back-color-gray {
 background-color: #CACACA;
 }
