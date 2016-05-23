@@ -200,12 +200,18 @@
   .bloque p {
     color: white;
     font-size: 18px;
-    margin-top: -70px; }
+    margin-top: -90px;
+    text-shadow: 3px 2px 0px #242222; }
+  .bloque .otro {
+    margin-top: 13px; }
+  .bloque .otro2 {
+    margin-top: 53px; }
   .bloque h5 {
     font-size: 18px;
     text-align: center;
     color: #ba1414;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 30px; }
   .bloque .bloq {
     box-sizing: border-box;
     width: 108%;
@@ -359,15 +365,263 @@
     margin-top: 20px;
     margin-bottom: 30px; }
     .especials .box-min .cont {
-      background-color: white; }
+      width: 250px;
+      height: 50px;
+      background-color: white;
+      position: relative;
+      margin-top: -60px;
+      padding: 5px 5px;
+      margin-left: 30px;
+      opacity: 0.9; }
       .especials .box-min .cont h6 {
-        margin-top: -35px;
-        margin-left: 100px;
-        color: white;
+        text-align: center;
+        font-size: 14px;
         font-weight: bold; }
   .especials hr {
     margin-top: 60px;
     border: 1px solid #e4e7ea; }
+
+.caricatura {
+  border-top: 8px solid #ba1414;
+  width: 300px;
+  margin-bottom: 40px; }
+  .caricatura img {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .caricatura .titl {
+    background-color: #ba1414;
+    color: white;
+    width: 150px;
+    padding: 3px 5px;
+    margin-top: -15px;
+    margin-left: 80px; }
+    .caricatura .titl h6 {
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center; }
+  .caricatura h6 {
+    font-weight: bold;
+    text-align: center; }
+  .caricatura a h6 {
+    color: #ba1414;
+    font-weight: bold; }
+  .caricatura hr {
+    margin-top: 30px;
+    border: 1px solid #e4e7ea; }
+
+.bloguers {
+  border-top: 8px solid #819ab0;
+  width: 300px;
+  margin-top: 20px; }
+  .bloguers .titl {
+    background-color: #819AB0;
+    color: white;
+    width: 180px;
+    padding: 3px 15px;
+    margin-top: -15px;
+    margin-left: 60px; }
+    .bloguers .titl h6 {
+      font-size: 12px;
+      text-align: center; }
+  .bloguers .bloger {
+    margin-top: 30px; }
+    .bloguers .bloger a {
+      color: black; }
+    .bloguers .bloger p {
+      margin-left: 70px;
+      font-size: 13px;
+      text-decoration: underline;
+      margin-top: -60px; }
+    .bloguers .bloger h6 {
+      margin-left: 70px;
+      font-size: 16px;
+      font-weight: bold; }
+  .bloguers p {
+    margin-left: 70px;
+    font-size: 13px;
+    text-decoration: underline;
+    margin-top: -50px; }
+  .bloguers h6 {
+    margin-left: 70px;
+    font-size: 16px; }
+  .bloguers hr {
+    margin-top: 30px;
+    border: 1px solid #e4e7ea; }
+
+.edicion {
+  width: 300px;
+  border-top: 8px solid #ba1414; }
+  .edicion .titl {
+    background-color: #ba1414;
+    color: white;
+    width: 150px;
+    padding: 3px 15px;
+    margin-top: -15px;
+    margin-left: 70px; }
+    .edicion .titl h6 {
+      font-size: 12px;
+      text-align: center; }
+  .edicion .diario {
+    margin-top: 20px; }
+    .edicion .diario h6 {
+      text-align: center;
+      font-weight: bold; }
+    .edicion .diario img {
+      margin-top: 20px; }
+  .edicion .small-edi {
+    margin-bottom: 80px;
+    margin-top: 40px; }
+    .edicion .small-edi h6 {
+      margin-left: 150px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: -150px; }
+    .edicion .small-edi a {
+      margin-left: 150px;
+      font-size: 13px;
+      color: #ba1414;
+      text-decoration: underline;
+      font-weight: bold; }
+  .edicion hr {
+    margin-top: 30px;
+    border: 1px solid #e4e7ea; }
+
+.infog {
+  margin-top: 80px;
+  width: 300px;
+  border-top: 8px solid #819ab0; }
+  .infog .titl {
+    background-color: #819AB0;
+    color: white;
+    width: 150px;
+    padding: 5px 5px;
+    margin-top: -15px;
+    margin-left: 75px;
+    margin-bottom: 30px; }
+    .infog .titl h6 {
+      font-size: 13px;
+      text-align: center; }
+  .infog .box-min {
+    margin-bottom: 30px; }
+    .infog .box-min .cont {
+      width: 250px;
+      height: 50px;
+      background-color: white;
+      position: relative;
+      margin-top: -60px;
+      padding: 5px 5px;
+      margin-left: 30px;
+      opacity: 0.9; }
+      .infog .box-min .cont h6 {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold; }
+  .infog hr {
+    margin-top: 30px;
+    border: 1px solid #e4e7ea; }
+
+.encuesta {
+  background-color: #e4e7ea;
+  width: 300px;
+  padding-bottom: 10px; }
+  .encuesta img {
+    margin-left: 115px; }
+  .encuesta .white-bg {
+    background-color: white;
+    width: 270px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+    .encuesta .white-bg h5 {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold; }
+    .encuesta .white-bg label {
+      margin-left: 100px; }
+    .encuesta .white-bg button {
+      background-color: red;
+      color: white;
+      margin-left: 80px;
+      padding: 2px 30px;
+      border-style: none;
+      border-radius: 4px; }
+    .encuesta .white-bg h6 {
+      margin-left: 80;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #ba1414; }
+    .encuesta .white-bg .first {
+      background-color: #C7FDCF;
+      margin-bottom: 20px;
+      margin-left: 50px; }
+    .encuesta .white-bg .second {
+      background-color: #FBA6A6;
+      margin-bottom: 20px;
+      margin-left: 50px; }
+
+.otro {
+  margin-top: 50px;
+  border: 1px solid #e4e7ea;
+  width: 300px;
+  padding: 5px 10px; }
+  .otro .logo {
+    margin-left: 55px; }
+  .otro .box {
+    margin-top: 10px;
+    margin-bottom: 25px; }
+    .otro .box p {
+      font-size: 12px;
+      margin-left: 115px;
+      margin-top: -60px; }
+  .otro .awe-box {
+    margin-left: -10px;
+    margin-top: 10px; }
+    .otro .awe-box p {
+      margin-left: 100px;
+      font-size: 11px; }
+    .otro .awe-box h6 {
+      color: #870570;
+      font-size: 12px;
+      margin-left: 144px;
+      margin-top: -24px; }
+
+.reporter {
+  background-color: #e4e7ea;
+  width: 300px;
+  margin-top: 50px;
+  padding-bottom: 20px; }
+  .reporter .logo {
+    margin-left: 100px;
+    margin-top: 20px; }
+  .reporter .white-bg {
+    background-color: white;
+    margin: 0 auto;
+    width: 250px;
+    padding: 5px 5px; }
+    .reporter .white-bg img {
+      width: 95%;
+      margin-left: 5px; }
+    .reporter .white-bg .tt {
+      font-weight: bold;
+      margin-left: 0; }
+    .reporter .white-bg p {
+      font-size: 13px; }
+  .reporter button {
+    border-style: none;
+    background-color: #ba1414;
+    padding: 2px 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 80px; }
+  .reporter h6 {
+    color: #ba1414;
+    font-weight: bold;
+    margin-left: 120px;
+    font-size: 13px; }
 
 /*CONTACTO*/
 .contact h1 {
