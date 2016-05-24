@@ -1,7 +1,11 @@
+/*CSS LISSETTE*/
 @import "variables.scss";
 
 
-
+*
+{
+	font-family:$font;
+}
 .head
 {
 	background-color:$dark-gray;
@@ -1039,6 +1043,8 @@
 	}
 	
 }
+
+/*FIN CSS LISSETTE*/
 
 
 
