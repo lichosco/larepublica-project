@@ -6,11 +6,14 @@
 	p {
 		font-size: 13px;
 		padding: 12px;
+		text-align: center;
+		padding-top: -5px;
 	}
 	h3 {
 		font-size: 16px;
 		margin-bottom: 15px;
-		text-aling: center;
+		padding-top:-5px;
+		text-align: center;
 	}
 		.opinion-square {
 		border: 1px solid #CECBCB;
@@ -45,11 +48,12 @@
 	p {
 		font-size: 13px;
 		padding: 12px;
+		text-align: center;
 	}
 	h3 {
 		font-size: 16px;
 		margin-bottom: 15px;
-		text-aling: center;
+		text-align: center;
 	}
 		.cuadro-opinion {
 		border: 1px solid #CECBCB;
@@ -96,37 +100,49 @@
 					}
 }
 /* -- FIN -- */
-
+/*INICIO COLUMNAS*/
 .btn-columnas {
-	background-color: #DD3434;
+	background-color: #C73A3A;
 	border-radius: 5px;
 	color: white;
 	padding: 5px 16px;
 	text-align: center;
-
+	margin-left: 370px;
 }
 
-.abc-list li {
-	background-color: #DD3434;
+.abc-list {
+	background-color: #C73A3A;
 	font-size: 15px;
-	list-style: none;
-	text-decoration: none;
-	display: inline;
-	padding-right: 10px;
-		a {
-			color: white;
+	padding: 15px;
+		ul {
+			list-style: none;
 			text-decoration: none;
 		}
-	.abc-list ul {
-		background-color: #DD3434;
-	}
+		li {
+			display: inline-block;
+			padding-left: 18px;
+			margin-left: 20px;
+			text-decoration: none;
+		}
+		a {
+			color: white;
+			display: inline-block;
+			font-weight: bold;
+			padding-left: 8px;
+			text-decoration: none;
+			&:hover {
+				background-color: #EB4949;
+				border-radius: 12px;
+				padding: 10px 15px;
+			}
+		}
 }
 /* FIN SECCION COLUMNISTAS*/
 
 
 /*FOOTER DE TODAS LAS PAGINAS*/
 .back-color-gray {
-background-color: #CACACA;
+	background-color: #CACACA;
 }
 
 .img-text-republica {
