@@ -37,6 +37,45 @@
 
 
 /*SECCION COLUMNISTAS*/
+/*CUADROS DE CONVERSACION*/
+.recuadro {
+	border: 2px solid #CECBCB;
+	padding: 6px;
+	margin: 4px;
+	p {
+		font-size: 13px;
+		padding: 12px;
+	}
+	h3 {
+		font-size: 16px;
+		margin-bottom: 15px;
+		text-aling: center;
+	}
+		.cuadro-opinion {
+		border: 1px solid #CECBCB;
+		background-color: #CACACA;
+		padding: 10px;
+		text-align: left;
+		}
+			.cuadro-img {
+				display: inline-table;
+				margin-top: -5px;
+				}
+			.cuadro-text {
+					display: inline-table;
+					margin-left: 2px;
+					margin-top: 10px;
+					h4 {
+					font-size: 16px;
+					font-weight: bold;
+					}
+				}
+}
+
+
+
+/* -- FIN -- */
+
 .btn-columnas {
 	background-color: #DD3434;
 	border-radius: 5px;
@@ -71,10 +110,6 @@
 
 
 /* FIN SECCION COLUMNISTAS*/
-
-
-
-
 
 
 /*FOOTER DE TODAS LAS PAGINAS*/
