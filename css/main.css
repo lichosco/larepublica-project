@@ -32,8 +32,7 @@
       font-weight: bold; }
 
 /*FIN SECCION BLOG*/
-/*SECCION COLUMNISTAS*/
-/*CUADROS DE CONVERSACION*/
+/*SECCION COLUMNISTAS-CUADROS DE CONVERSACION*/
 .recuadro {
   border: 2px solid #CECBCB;
   padding: 6px;
@@ -67,20 +66,40 @@
 .characters {
   border: 1px solid #CECBCB;
   background-color: #CACACA;
+  padding: 10px; }
+  .characters:hover {
+    background-color: white; }
+  .characters .cuadro-chr-img {
+    display: inline-table;
+    margin-top: -5px; }
+  .characters .chr-text {
+    display: inline-table;
+    margin-left: 2px;
+    margin-top: 10px; }
+    .characters .chr-text h4 {
+      font-size: 16px;
+      font-weight: bold; }
+
+.character-humberto {
+  border: 1px solid #CECBCB;
+  background-color: #CACACA;
   padding: 10px;
-  text-align: left; }
-
-.cuadro-chr-img {
-  display: inline-table;
-  margin-top: -5px; }
-
-.chr-text {
-  display: inline-table;
-  margin-left: 2px;
-  margin-top: 10px; }
-  .chr-text h4 {
-    font-size: 16px;
-    font-weight: bold; }
+  padding-top: -30px; }
+  .character-humberto:hover {
+    background-color: white; }
+  .character-humberto .chr-humberto-text {
+    display: inline-table;
+    margin-left: 55px;
+    margin-top: -60px; }
+    .character-humberto .chr-humberto-text h4 {
+      font-size: 16px;
+      font-weight: bold;
+      padding: 5px; }
+    .character-humberto .chr-humberto-text h5 {
+      font-size: 16px;
+      font-weight: bold;
+      padding-top: -5px;
+      margin-top: -10px; }
 
 /* -- FIN -- */
 /*INICIO COLUMNAS*/
